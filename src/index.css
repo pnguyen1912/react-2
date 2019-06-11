@@ -7,3 +7,26 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
+img{
+  height: 80px;
+}
+.border{
+  border-style: solid;
+}
+button{
+  background: red;
+  height: 30px;
+  width: 30px;
+  font-size: 20px
+}
+#button2{
+  background: green;
+}
+.left{
+  float: left
+}
+.item{
+  padding-bottom: 10px
+}

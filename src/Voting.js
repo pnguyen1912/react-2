@@ -5,7 +5,7 @@ class Voting extends React.Component {
   render() {
     return (
       <div>
-        {this.props.name}
+        <img src={this.props.url} alt="" />
       </div>
     )
   }

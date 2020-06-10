@@ -1,6 +1,7 @@
 body {
   text-align: center;
   margin: 0;
+  padding: 20px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -14,19 +15,24 @@ img{
 }
 .border{
   border-style: solid;
+  border-radius: 12px;
 }
 button{
   background: red;
   height: 30px;
   width: 30px;
-  font-size: 20px
+  font-size: 20px;
+  border-radius: 8px
 }
 #button2{
   background: green;
 }
 .left{
-  float: left
+  float: left;
+  padding-left: 20px
 }
 .item{
-  padding-bottom: 10px
+  padding-bottom: 10px;
+width: 60%;
+padding-left: 18%
 }

@@ -62,18 +62,18 @@ class App extends React.Component {
           } else {
             return item;
           }
-        }).sort(function (a, b) { return b.count - a.count })
+        }).sort((a, b) => b.count - a.count)
       })
     }
 
 
   }
 
-
   render() {
     return (
       <div className='App'>
         <h1>JavaScript Voting App</h1>
+
         {this.state.options.map(item => {
           return (
             <div className='item'>
